@@ -9,17 +9,9 @@ namespace HexGridGame.DataModels
     {
         public string Name;
         public int Energy;
-        public PlayerPosition Position;
+        public HexCoord Position;
         public List<ResourceCollected> Resources;
 
         public Player() { }
-    }
-
-    [Serializable]
-    public struct PlayerPosition
-    {
-        public int q;
-        public int r;
-        public int s;
     }
 }
