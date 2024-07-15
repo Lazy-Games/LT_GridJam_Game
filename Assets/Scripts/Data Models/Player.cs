@@ -7,10 +7,10 @@ namespace HexGridGame.DataModels
     [Serializable]
     public class Player
     {
-        public string Name { get; set; }
-        public int Energy { get; set; }
-        public PlayerPosition Position { get; set; }
-        public List<ResourceCollected> Resources { get; set; }
+        public string Name;
+        public int Energy;
+        public PlayerPosition Position;
+        public List<ResourceCollected> Resources;
 
         public Player() { }
     }
@@ -18,8 +18,8 @@ namespace HexGridGame.DataModels
     [Serializable]
     public struct PlayerPosition
     {
-        public int q { get; set; }
-        public int r { get; set; }
-        public int s { get; set; }
+        public int q;
+        public int r;
+        public int s;
     }
 }

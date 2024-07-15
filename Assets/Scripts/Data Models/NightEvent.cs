@@ -8,9 +8,9 @@ namespace HexGridGame.DataModels
     [Serializable]
     public class NightEvent
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public float Modifier { get; set; }
-        public Sprite Image { get; set; }
+        public string Name;
+        public string Description;
+        public float Modifier;
+        public Sprite Image;
     }
 }

@@ -8,10 +8,10 @@ namespace HexGridGame.DataModels
     [Serializable]
     public class Offering
     {
-        public string Identifier { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public Sprite Image { get; set; }
+        public string Identifier;
+        public string Name;
+        public string Description;
+        public Sprite Image;
         
         public Offering() { }
     }

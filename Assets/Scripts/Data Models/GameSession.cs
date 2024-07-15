@@ -7,9 +7,9 @@ namespace HexGridGame.DataModels
     [Serializable]
     public class GameSession
     {
-        public int CurrentTurn { get; set; }
-        public bool IsDay { get; set; }
-        public List<string> PastNightEvents { get; set; }
+        public int CurrentTurn;
+        public bool IsDay;
+        public List<string> PastNightEvents;
 
         public GameSession() { }
     }
