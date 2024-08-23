@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +6,14 @@ using UnityEngine;
 namespace HexGridGame.DataModels
 {
     [Serializable]
-    public class Resource
+    public class Biome
     {
-        public ResourcesType ResourcesType;
+        public BiomeType BiomeType;
         public string Name;
         public string Description;
         public Sprite Image;
+        public Color TileColor;
 
-        public Resource() { }
+        public Biome() { }
     }
 }

@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d01b89fa9bee4340bddb028bc643a84, type: 3}
+  m_Name: CustomMap v1
+  m_EditorClassIdentifier: 
+  customMapDataZones:
+  - ZoneKeyname: Zone_1
+    customMapDataZoneRows:
+    - startingRowCoords:
+        q: 0
+        r: 0
+        s: 0
+      CustomMapTiles:
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 0
+        r: -1
+        s: 1
+      CustomMapTiles:
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 3
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 3
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 3
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 3
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 0
+        r: -2
+        s: 2
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 0
+        r: -3
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 1
+        r: -4
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    automaticTilesSettings:
+      tilesFillingByBiomes:
+      - biomeType: 1
+        amount: 4
+      - biomeType: 2
+        amount: 4
+      - biomeType: 3
+        amount: 4
+      - biomeType: 4
+        amount: 4
+      - biomeType: 5
+        amount: 4
+      - biomeType: 6
+        amount: 3
+      defaultBiome: 1
+    amountOfMountains: 2
+  - ZoneKeyname: Zone_2
+    customMapDataZoneRows:
+    - startingRowCoords:
+        q: 2
+        r: -5
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 3
+        r: -6
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 4
+        r: -7
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 5
+        r: -8
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 6
+        r: -9
+        s: 3
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    automaticTilesSettings:
+      tilesFillingByBiomes:
+      - biomeType: 1
+        amount: 4
+      - biomeType: 2
+        amount: 4
+      - biomeType: 3
+        amount: 4
+      - biomeType: 4
+        amount: 4
+      - biomeType: 5
+        amount: 4
+      - biomeType: 6
+        amount: 3
+      defaultBiome: 1
+    amountOfMountains: 2
+  - ZoneKeyname: Zone_3
+    customMapDataZoneRows:
+    - startingRowCoords:
+        q: 6
+        r: -10
+        s: 4
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 7
+        r: -11
+        s: 4
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 7
+        r: -12
+        s: 5
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 1
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 8
+        r: -13
+        s: 5
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 9
+        r: -14
+        s: 5
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 9
+        r: -15
+        s: 6
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 3
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 10
+        r: -16
+        s: 6
+      CustomMapTiles:
+      - tileDataType: 0
+        mountainRollSubzone: 0
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 2
+      - tileDataType: 0
+        mountainRollSubzone: 0
+    - startingRowCoords:
+        q: 11
+        r: -17
+        s: 6
+      CustomMapTiles:
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+      - tileDataType: 1
+        mountainRollSubzone: 0
+    automaticTilesSettings:
+      tilesFillingByBiomes:
+      - biomeType: 1
+        amount: 3
+      - biomeType: 2
+        amount: 3
+      - biomeType: 3
+        amount: 3
+      - biomeType: 4
+        amount: 3
+      - biomeType: 5
+        amount: 3
+      - biomeType: 6
+        amount: 3
+      defaultBiome: 6
+    amountOfMountains: 2

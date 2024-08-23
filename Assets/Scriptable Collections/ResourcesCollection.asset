@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: ResourcesCollection
   m_EditorClassIdentifier: 
   resources:
-  - Identifier: wood
+  - ResourcesType: 1
     Name: Wood
-    Description: Common wood generally harvested in forests.
+    Description: Common piece of wood generally harvested in a forests.
     Image: {fileID: 21300000, guid: 626d084ed25dfe64cb170d727cc985bc, type: 3}
-  - Identifier: grass
+  - ResourcesType: 3
     Name: Grass
     Description: Leaves obtained from nature useful to light a fire or for other
       survival reasons...
     Image: {fileID: 21300000, guid: 1bf5dddd24db1f24299d04684fb50894, type: 3}
-  - Identifier: food
+  - ResourcesType: 2
     Name: Food
-    Description: A good piece of meat to keep the energy for the adventure ahead.
+    Description: A good piece of meat to keep the energy for the next adventure ahead.
     Image: {fileID: 21300000, guid: f6ba3a7cc92951d42ac7ae53dafcd478, type: 3}

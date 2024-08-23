@@ -12,9 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7caaa69509901284b9f8f09e91fd9205, type: 3}
   m_Name: OfferingsCollection
   m_EditorClassIdentifier: 
-  _offerings:
-  - Identifier: ruby
-    Name: Ruby Fragment
-    Description: A piece of shimmering crimson colored gemstone that begs the attention
-      of the eyes.
-    Image: {fileID: 0}
+  _offerings: []
